@@ -58,7 +58,7 @@ if submit_button:
         # Prepare sequences for LSTM
         X_seq = []
         sequence_length = 30
-           for i in range(len(data_scaled) - sequence_length + 1):  # Adjusted range
+        for i in range(len(data_scaled) - sequence_length + 1):  # Adjusted range
         X_seq.append(data_scaled[i:i+sequence_length, 0])
         X_seq = np.array(X_seq)
         print("Shape of X_seq before reshaping:", X_seq.shape)  # Add this line
