@@ -1,3 +1,3 @@
-# Stock_Prediction.Neural_Network
+# Stock_Prediction.
 deployed here:
 https://predictmystock.streamlit.app/
